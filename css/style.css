@@ -1,3 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    max-width: 1440px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
 .header__container {
     height: 80px;
     background-color: #3f2aff;
