@@ -1,16 +1,7 @@
-* {
-    box-sizing: border-box;
-
-}
-
-body {
-    
-}
-
 @font-face {
     font-family: 'robotoblack';
-    src: url('../fonts/roboto-black-webfont.woff2') format('woff2'),
-         url('../fonts/roboto-black-webfont.woff') format('woff');
+    src: url('fonts/roboto-black-webfont.woff2') format('woff2'),
+         url('fonts/roboto-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -21,8 +12,8 @@ body {
 
 @font-face {
     font-family: 'robotoblack_italic';
-    src: url('../fonts/roboto-blackitalic-webfont.woff2') format('woff2'),
-         url('../fonts/roboto-blackitalic-webfont.woff') format('woff');
+    src: url('fonts/roboto-blackitalic-webfont.woff2') format('woff2'),
+         url('fonts/roboto-blackitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -33,8 +24,8 @@ body {
 
 @font-face {
     font-family: 'robotobold';
-    src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
-         url('../fonts/roboto-bold-webfont.woff') format('woff');
+    src: url('fonts/roboto-bold-webfont.woff2') format('woff2'),
+         url('fonts/roboto-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -45,8 +36,8 @@ body {
 
 @font-face {
     font-family: 'robotobold_italic';
-    src: url('../fonts/roboto-bolditalic-webfont.woff2') format('woff2'),
-         url('../fonts/roboto-bolditalic-webfont.woff') format('woff');
+    src: url('fonts/roboto-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/roboto-bolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -57,8 +48,8 @@ body {
 
 @font-face {
     font-family: 'robotoitalic';
-    src: url('../fonts/roboto-italic-webfont.woff2') format('woff2'),
-         url('../fonts/roboto-italic-webfont.woff') format('woff');
+    src: url('fonts/roboto-italic-webfont.woff2') format('woff2'),
+         url('fonts/roboto-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -69,8 +60,8 @@ body {
 
 @font-face {
     font-family: 'robotolight';
-    src: url('../fonts/roboto-light-webfont.woff2') format('woff2'),
-         url('../fonts/roboto-light-webfont.woff') format('woff');
+    src: url('fonts/roboto-light-webfont.woff2') format('woff2'),
+         url('fonts/roboto-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -81,8 +72,8 @@ body {
 
 @font-face {
     font-family: 'robotolight_italic';
-    src: url('../fonts/roboto-lightitalic-webfont.woff2') format('woff2'),
-         url('../fonts/roboto-lightitalic-webfont.woff') format('woff');
+    src: url('fonts/roboto-lightitalic-webfont.woff2') format('woff2'),
+         url('fonts/roboto-lightitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -93,8 +84,8 @@ body {
 
 @font-face {
     font-family: 'robotomedium';
-    src: url('../fonts/roboto-medium-webfont.woff2') format('woff2'),
-         url('../fonts/roboto-medium-webfont.woff') format('woff');
+    src: url('fonts/roboto-medium-webfont.woff2') format('woff2'),
+         url('fonts/roboto-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -105,8 +96,8 @@ body {
 
 @font-face {
     font-family: 'robotomedium_italic';
-    src: url('../fonts/roboto-mediumitalic-webfont.woff2') format('woff2'),
-         url('../fonts/roboto-mediumitalic-webfont.woff') format('woff');
+    src: url('fonts/roboto-mediumitalic-webfont.woff2') format('woff2'),
+         url('fonts/roboto-mediumitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -117,8 +108,8 @@ body {
 
 @font-face {
     font-family: 'robotoregular';
-    src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
-         url('../fonts/roboto-regular-webfont.woff') format('woff');
+    src: url('fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('fonts/roboto-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -129,8 +120,8 @@ body {
 
 @font-face {
     font-family: 'robotothin';
-    src: url('../fonts/roboto-thin-webfont.woff2') format('woff2'),
-         url('../fonts/roboto-thin-webfont.woff') format('woff');
+    src: url('fonts/roboto-thin-webfont.woff2') format('woff2'),
+         url('fonts/roboto-thin-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -141,17 +132,44 @@ body {
 
 @font-face {
     font-family: 'robotothin_italic';
-    src: url('../fonts/roboto-thinitalic-webfont.woff2') format('woff2'),
-         url('../fonts/roboto-thinitalic-webfont.woff') format('woff');
+    src: url('fonts/roboto-thinitalic-webfont.woff2') format('woff2'),
+         url('fonts/roboto-thinitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
 .row {
     max-width: 1440px;
     margin-left: 140px;
     margin-right: 140px;
+}
+
+.title {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+.button {
+    color: #fff;
+    background-color: #3f2aff;
+    padding: 24px 75px;
+    border-radius: 20px;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
+    border: none;
 }
 
 /* HEADER-LG =================================================================*/
@@ -178,6 +196,196 @@ body {
 .header__nav-link {
     text-decoration: none;
     color: #fff;
-    margin-left: 56px;
-    font-family: robotothin_italic;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.header__nav-link:not(:first-child) {
+    margin-left: 52px;
+}
+
+/* HERO-LG =================================================================*/
+
+.hero__container {
+    background-image: url(../img/hero__bg.jpg);
+    height: 620px;
+}
+
+.hero__title {
+    color: white;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    margin-top: 130px;
+    margin-bottom: 30px;
+}
+
+.hero__desc {
+    color: #fff;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    width: 444px;
+    
+}
+
+.hero__button {
+    width: 270px;
+    height: 69px;
+    margin-top: 45px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.hero__right-sect {
+    position: relative;
+}
+
+.hero__pict {
+    top: 15px;
+    left: -77px;
+    position: absolute;
+}
+
+/* ADVANCES-LG =================================================================*/
+
+.advances__container {
+    padding-top: 80px;
+    padding-bottom: 77px;
+}
+
+.advances__up-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 21px;
+}
+
+.advances__img {
+    margin-top: 20px;
+    margin-right: 32px;
+    width: 160px;
+    height: 144px;
+}
+
+.advances__title {
+    width: 380px;
+    margin-bottom: 17px;
+}
+
+.advances__desc {
+    font-size: 16px;
+    line-height: 24px;  
+    font-weight: 400;
+    width: 585px;
+    color: #666;
+}
+
+.advances__down-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.advances__block {
+    display: flex;
+}
+
+.advances__block-desc {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
+    color: #666;
+    width: 233px;
+    margin-left: 30px;
+    margin-top: 12px;
+}
+
+/* TEACHERS-LG =================================================================*/
+
+.teachers__container {
+    padding-top: 74px;
+    min-height: 576px;
+    background-color: #212133;
+}
+
+.teachers__title {
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.teachers__row {
+    justify-content: space-between;
+}
+
+.teachers__col {
+}
+
+.teachers__block {
+    width: 255px;
+}
+
+.teachers__img {
+    margin-bottom: 30px;
+    border-radius: 22px 22px 0 0;
+}
+
+.teachers-name {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.teachers__desc {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #85859b;
+}
+
+/* LESSONS-LG =================================================================*/
+
+.lessons__container {
+    padding-top: 74px;
+    padding-bottom: 80px;
+}
+
+.lessons__title {
+    margin-bottom: 23px;
+}
+
+.lessons__img {
+    border-radius: 20px 20px 0 0;
+}
+
+.lessons__block__bottom {
+    padding: 33px;
+    background-color: #edf0f9;
+    width: 539px;
+    min-height: 300px;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.lessons__block__title {
+    margin-bottom: 8px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+}
+
+.lessons__desc {
+    width: 480px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.lessons__button {
+    width: 202px;
+    height: 60px;
+    padding: 20px 59px;
+    position: absolute;
+    bottom: 30px;
 }
