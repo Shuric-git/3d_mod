@@ -150,7 +150,7 @@ body {
 }
 
 .row {
-    max-width: 1440px;
+    /* max-width: 1440px; */
     margin-left: 140px;
     margin-right: 140px;
 }
@@ -190,7 +190,9 @@ body {
 }
 
 .header__nav {
-    text-align: right;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .header__nav-link {
@@ -200,9 +202,9 @@ body {
     line-height: 21px;
 }
 
-.header__nav-link:not(:first-child) {
+/* .header__nav-link:not(:first-child) {
     margin-left: 52px;
-}
+} */
 
 /* HERO-LG =================================================================*/
 
